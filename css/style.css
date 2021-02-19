@@ -1,0 +1,147 @@
+/* === Google Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* === Global CSS === */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  line-height: 1.8 !important;
+}
+
+ul li a {
+  font-size: 18px !important;
+}
+
+.nav-item.active .nav-link {
+  color: #17a2b8 !important;
+}
+
+/* === Navbar === */
+.navbar {
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+/* === Home === */
+.home {
+  padding: 50px 0;
+}
+
+/* === Update === */
+.total-confirmed-g,
+.total-bd-confirmed {
+  border: 1px solid #ffc107;
+  border-bottom: 5px solid #ffc107;
+}
+
+.total-recovered-g,
+.total-bd-recovered {
+  border: 1px solid #28a745;
+  border-bottom: 5px solid #28a745;
+}
+
+.total-deaths-g,
+.total-bd-deaths {
+  border: 1px solid #dc3545;
+  border-bottom: 5px solid #dc3545;
+}
+
+/* === About === */
+.about {
+  padding: 50px 0;
+}
+
+.about-content {
+  margin-top: 65px;
+}
+
+/* === Transmission === */
+.transmission {
+  padding: 100px 0;
+}
+
+/* === Symptoms === */
+.symptoms {
+  padding: 100px 0;
+}
+
+/* === Prevention ==== */
+.prevention {
+  padding: 100px 0;
+}
+
+/* === Follow === */
+.follow {
+  padding: 100px 0;
+}
+
+/* === Disclaimer === */
+.disclaimer {
+  padding: 150px 0;
+}
+
+.note {
+  border: 1px solid #17a2b8;
+  border-bottom: 6px solid #17a2b8;
+}
+
+/* === Result === */
+.result {
+  margin-top: 50px;
+}
+
+/* === Record Table === */
+.records {
+  margin-top: 100px;
+}
+
+/* === Footer === */
+footer {
+  padding-top: 100px;
+}
+
+/* === Demo === */
+.demo {
+  padding-top: 100px;
+}
+
+/* === COVID-19 Update === */
+.covid-update {
+  padding: 100px 0;
+}
+
+/* === 404 === */
+.page-404 {
+  padding: 100px 0;
+}
+
+/* === Media Query === */
+@media screen and (max-width:575px) {
+  .about-content {
+    margin-top: 0;
+  }
+
+  .transmission,
+  .symptoms,
+  .prevention,
+  .follow {
+    padding: 50px 0;
+  }
+}
