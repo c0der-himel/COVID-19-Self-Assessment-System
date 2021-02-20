@@ -1,6 +1,6 @@
 # COVID-19-Self-Assessment-System
 
-> COVID-19 Self-Assessment System
+COVID-19 Self-Assessment System
 
 This COVID-19 Self Assessment System is a automated system which will show you result based on your information whether you are COVID-19 Positive or Negative. If you are positive the what you need to do this SAS ( Self Assessment System ) will inform you. The world is at its utmost crisis moments now. Due to COVID-19 we lost many lives and many have been facing financial crisis all over the world. Economics are down due to pandemic.
 So if you have any kind of doubt that you need help then first you can test it by your self.
